@@ -1,0 +1,20 @@
+.square {
+    width: 60px;
+    height: 60px;
+    background: #61dafb;
+    border: 1px solid #282c34;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .square:hover {
+    background-color: #21a1f1;
+  }
+  
+  .square:disabled {
+    background: #ddd;
+    cursor: not-allowed;
+  }
+  
